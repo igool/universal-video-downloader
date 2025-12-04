@@ -115,5 +115,5 @@ Server 启动后会监听来自插件的下载请求。
 
 本工具适合 **有一定开发能力** 的用户进行轻量使用。
 如你完全是小白或需要一对一指导，本人可提供 **适当付费技术支持**。
-
+<img src="https://igool.github.io/images/wecom_qrcode.jpg">
 ---
