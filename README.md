@@ -101,7 +101,26 @@ Server 启动后会监听来自插件的下载请求。
 ```
 ./download/
 ```
+## 6. 执行程序（How to Use）
+1. 基于浏览器的音视频下载工具打包
+路径：/uvd/uvd_server_gui.py
+```
+   pyinstaller ^
+   --name uvd_server_gui ^
+   --onefile ^
+   --noconsole ^
+   uvd_server_gui.py
 
+```
+2. 基于mitmproxy的静默视频图片下载工具打包
+路径：/sniffer/wx_sniffer_gui.py，打包的项目地址是https://github.com/igool/wx_sniffer_app
+```
+pyinstaller -y ^
+  --noconsole ^
+  --name wx-sniffer ^
+  --add-data "wx_sniffer_addon.py;." ^
+  wx_sniffer_gui.py
+```
 ---
 
 # ⚠️ 重要提示（Important Notice）

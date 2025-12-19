@@ -1,3 +1,5 @@
 flask
 yt-dlp
 flask_cors
+PySide6
+mitmproxy
